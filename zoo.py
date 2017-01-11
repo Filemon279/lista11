@@ -15,8 +15,6 @@ addToZoo(b1)
 addToZoo(b2)
 
 
-
-
 def printAnimals():
     for x in baza:
         print(x)
