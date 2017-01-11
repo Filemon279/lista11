@@ -5,4 +5,8 @@ class Animal:
         self.kolor = kolor
         self.wiek = wiek
 
+    def __str__(self): # zwraca string
+        return "Zwierze: Waga: {}, Wzrost: {}, Kolor: {}, Wiek: {}"\
+                .format(self.waga, self.wzrost, self.kolor, self.wiek)
+
 
