@@ -2,6 +2,7 @@ from animal import Animal
 
 class Bird(Animal):
     def __init__(self,czyLata=0,gatunek=""):
+        super().__init__
         self.czyLata = czyLata
         self.gatunek = gatunek
 
