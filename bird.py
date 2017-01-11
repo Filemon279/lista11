@@ -6,15 +6,6 @@ class Bird(Animal):
         self.gatunek = gatunek
 
 
-
-uno = Animal(10,10,10)
-uno.waga = 45
-print(uno.waga)
-
-
-
-
-
 #  def setWiek(self,wiek):
 #      self.wiek = wiek
 #  def setKolor(self,kolor):
